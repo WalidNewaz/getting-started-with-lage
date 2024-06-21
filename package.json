@@ -1,0 +1,20 @@
+{
+  "name": "getting-started-with-lage",
+  "version": "1.0.0",
+  "description": "This is a tutorial about setting up a monorepo with lage",
+  "main": "index.js",
+  "scripts": {
+    "build": "lage build",
+    "lint": "lage lint",
+    "test": "lage test"
+  },
+  "author": "Walid Newaz",
+  "license": "MIT",
+  "workspaces": [
+    "packages/a",
+    "packages/b"
+  ],
+  "devDependencies": {
+    "lage": "latest"
+  }
+}
