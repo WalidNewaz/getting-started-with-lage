@@ -4,8 +4,12 @@
   "description": "Test package a",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "echo \"Building package a\""
   },
   "author": "Walid Newaz",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

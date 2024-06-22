@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Test monorepo workspace package b",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "echo \"Building package b\""
   },
   "author": "Walid Newaz",
   "license": "MIT"
